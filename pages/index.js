@@ -33,6 +33,7 @@ const PostSummary = (props) => (
     <style jsx>{`
       .postSummary__date {
         color: ${theme.date}
+
       }
 
       .postSummary__summary {
@@ -209,7 +210,7 @@ export default () => (
     <style global jsx>{`
       body {
         font-family: 'Fira Code', monospace;
-        font-size: 14px;
+        font-size: 90%;
         background-color: ${theme.background};
         color: ${theme.text};
         width: 100%;
