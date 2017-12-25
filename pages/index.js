@@ -123,25 +123,25 @@ export default () => (
       <ul className='mainMenu__list'>
         <li>
           <Link href='/about'>
-            <DecoratedLink>about</DecoratedLink>
+            <DecoratedLink>About</DecoratedLink>
           </Link>
         </li>
 
         <li>
           <Link href='/social'>
-            <DecoratedLink>social networks</DecoratedLink>
+            <DecoratedLink>Social networks</DecoratedLink>
           </Link>
         </li>
 
         <li>
           <Link href='/rss'>
-            <DecoratedLink>rss</DecoratedLink>
+            <DecoratedLink>RSS</DecoratedLink>
           </Link>
         </li>
 
         <li>
           <Link href='/light'>
-            <DecoratedLink>light theme</DecoratedLink>
+            <DecoratedLink>Light theme</DecoratedLink>
           </Link>
         </li>
       </ul>
