@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link'
 
 const COLORS = {
-  base03: '#073642',
+  base03: '#002b36',
   base0: '#839496',
   base1: '#93A1A1',
   base3: '#fdf6e3',
@@ -23,7 +23,10 @@ const theme = {
 const PostSummary = (props) => (
   <article className='postSummary'>
     <header className='postSummary__title'>
-      <DecoratedLink href={props.href}>{props.title}</DecoratedLink>
+      <DecoratedLink
+        href={props.href}>
+          {props.title}
+      </DecoratedLink>
     </header>
     <div className='postSummary__date'>{props.date}</div>
     <summary className='postSummary__summary'>
@@ -44,37 +47,39 @@ const PostSummary = (props) => (
 );
 
 
-const DecoratedLink = ({children}) => (
-  <a className='decoratedLink'>
-    <span className='decoratedLink__decoration'>[</span>
-    <span className='decoratedLink__text'>{children}</span>
-    <span className='decoratedLink__decoration'>]</span>
+const DecoratedLink = ({children}) => {
+  return (
+    <a className='decoratedLink'>
+      <span className='decoratedLink__decoration'>[</span>
+      <span className='decoratedLink__text'>{children}</span>
+      <span className='decoratedLink__decoration'>]</span>
 
-    <style jsx>{`
-      .decoratedLink {
-        text-decoration: none;
-        text-decoration: none;
-        cursor: pointer;
-      }
+      <style jsx>{`
+        .decoratedLink {
+          text-decoration: none;
+          text-decoration: none;
+          cursor: pointer;
+        }
 
-      .decoratedLink:focus .decoratedLink__text,
-      .decoratedLink:hover .decoratedLink__text {
-        text-decoration: underline;
-      }
+        .decoratedLink:focus .decoratedLink__text,
+        .decoratedLink:hover .decoratedLink__text {
+          text-decoration: underline;
+        }
 
-      .decoratedLink__decoration {
-        color: ${theme.text};
-        user-select: none;
-      }
+        .decoratedLink__decoration {
+          color: ${theme.text};
+          user-select: none;
+        }
 
-      .decoratedLink__text {
-        margin-right: 1em;
-        margin-left: 1em;
-        color: ${theme.link};
-      }
-    `}</style>
-  </a>
-);
+        .decoratedLink__text {
+          margin-right: 1em;
+          margin-left: 1em;
+          color: ${theme.link};
+        }
+      `}</style>
+    </a>
+  );
+}
 
 
 const postSummaries = [
@@ -190,6 +195,12 @@ export default () => (
         justify-content: space-between;
       }
 
+      @media (max-width: 600px) {
+        .mainMenu__list {
+          flex-direction: column;
+        }
+      }
+
       .mainMenu li {
         padding: 0;
       }
@@ -203,7 +214,7 @@ export default () => (
 
       .postList__item {
         padding: 0;
-        margin-bottom: 2.4em;
+        margin-bottom: 2.8em;
       }
     `}</style>
 
