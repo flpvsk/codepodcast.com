@@ -13,7 +13,7 @@ html {
 body {
   font-family: "Fira Code", "SFMono-Regular", Consolas, "Roboto Mono",
     "Droid Sans Mono", "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 90%;
+  font-size: 100%;
   color: #93A1A1;
   width: 100%;
   margin: 0;
@@ -82,6 +82,10 @@ a {
 }
 
 @media (max-width: 600px) {
+  body {
+    font-size: 110%;
+  }
+
   .page {
     padding-left: 0.7em;
     padding-right: 0.7em;
