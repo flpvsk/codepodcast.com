@@ -1,15 +1,12 @@
-import React from 'react';
-import theme from '../utils/theme';
+import React from 'react'
+import theme from '../utils/theme'
 
-const DecoratedLink = ({children}) => {
+const DecoratedLink = ({ children }) => {
   return (
-    <span className='decoratedLink'>
-      <span className='decoratedLink__text' >
-        {children}
-      </span>
+    <span className="decoratedLink">
+      <span className="decoratedLink__text">{children}</span>
     </span>
-  );
+  )
 }
 
-export default DecoratedLink;
-
+export default DecoratedLink

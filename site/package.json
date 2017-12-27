@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "codepodcast.com",
+  "description": "Code Podcast website powered by Gatsby",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Andrey Salomatin <filipovskii.off@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.145",
     "gatsby-image": "^1.0.31",

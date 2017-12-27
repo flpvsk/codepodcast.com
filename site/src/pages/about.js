@@ -1,10 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Menu from '../atoms/menu';
-import logo from '../images/logo-dark.svg';
+import Menu from '../atoms/menu'
+import logo from '../images/logo-dark.svg'
 
-
-export default (props) => {
+export default props => {
   return (
     <div>
       <Helmet
@@ -12,17 +11,18 @@ export default (props) => {
         meta={[
           {
             name: 'description',
-            content: 'About page'
+            content: 'About page',
           },
           { name: 'keywords', content: 'software, podcast' },
-        ]} />
+        ]}
+      />
 
-      <div className='page'>
-        <h1 className='pageTitle'>Code Podcast | About</h1>
+      <div className="page">
+        <h1 className="pageTitle">Code Podcast | About</h1>
         <Menu />
 
-        <section className='pageContent'>
-          <img className='logo' src={logo} />
+        <section className="pageContent">
+          <img className="logo" src={logo} />
           <p>
             {`Code Podcast is about ideas that shape the way we build
               software. It's like Planet Money for developers.`}
@@ -34,22 +34,20 @@ export default (props) => {
           </p>
           <p>
             {`Code Podcast is made by `}
-            <a href='https://twitter.com/flpvsk'>Andrey Salomatin</a>
+            <a href="https://twitter.com/flpvsk">Andrey Salomatin</a>
             {` and `}
-            <a href='mailto:michael@codepodcast.com'>
-              Michael Beschastnov
-            </a>.
+            <a href="mailto:michael@codepodcast.com">Michael Beschastnov</a>.
           </p>
           <p>
             {`Find us on `}
-            <a href='https://twitter.com/podcastcode'>twitter</a>
+            <a href="https://twitter.com/podcastcode">twitter</a>
             {`, `}
-            <a href='https://twitter.com/podcastcode'>soundcloud</a>
+            <a href="https://twitter.com/podcastcode">soundcloud</a>
             {` and `}
-            <a href='https://www.facebook.com/Codepodcast'>facebook</a>.
+            <a href="https://www.facebook.com/Codepodcast">facebook</a>.
           </p>
         </section>
       </div>
     </div>
-  );
-};
+  )
+}
