@@ -22,11 +22,14 @@ class BlogPostTemplate extends React.Component {
 
         <div className='page'>
           <h1 className='pageTitle'>
-            {`Code Podcast | ${post.frontmatter.title}`}
+            {`Code Podcast`}
           </h1>
           <Menu />
 
           <section className='pageContent'>
+            <div className='postContent'>
+               <h1>{post.frontmatter.title}</h1>
+             </div>
             <div className='postContent'
               dangerouslySetInnerHTML={{ __html: post.html }} />
           </section>

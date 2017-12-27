@@ -19,6 +19,16 @@ body {
   margin: 0;
 }
 
+pre, code {
+  font-family: "Fira Code", "SFMono-Regular", Consolas, "Roboto Mono",
+    "Droid Sans Mono", "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 1em;
+}
+
+hr {
+  border-color: #93A1A1;
+}
+
 a {
   text-decoration: none;
   /* color: #859900; */
@@ -29,6 +39,18 @@ a {
   max-width: 45em;
   padding-left: 3em;
   padding-right: 3em;
+}
+
+.footer {
+  max-width: 45em;
+  margin-top: 4em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.footer__text {
+  margin-top: 2.5em;
+  width: 100%;
 }
 
 .pageContent {
@@ -65,8 +87,21 @@ a {
     padding-right: 0.7em;
   }
 
+  .footer {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+  }
+
   .mainMenu__list {
     flex-direction: column;
+  }
+
+  .mainMenu__listItem {
+    margin-bottom: 1em;
+  }
+
+  .pageContent {
+    margin-top: 2em;
   }
 }
 
@@ -101,11 +136,14 @@ a {
 .decoratedLink {
   text-decoration: none;
   cursor: pointer;
+  /* background-color: #168DCF;*/
+  background-color: #859900;
+  color: #002b36;
 }
 
 .decoratedLink:focus .decoratedLink__text,
 .decoratedLink:hover .decoratedLink__text {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .decoratedLink__decoration {
@@ -119,9 +157,14 @@ a {
 .decoratedLink__text {
   margin-right: 1em;
   margin-left: 1em;
+  color: #002b36;
   /*
   color: ${theme.link};
   */
+}
+
+.postContent li + li {
+  margin-top: 0.7em;
 }
 
 .postContent h1,
@@ -136,6 +179,7 @@ a {
   color: #2aa198; /*cb4b16;*/
 }
 
+.postContent h1:before,
 .postContent h2:before,
 .postContent h3:before,
 .postContent h4:before {
@@ -169,6 +213,8 @@ a {
 }
 
 .logo {
-  width: 20em;
+  width: 100%;
   margin-bottom: 2.2em;
 }
+
+

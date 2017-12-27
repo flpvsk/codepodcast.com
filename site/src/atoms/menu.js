@@ -6,19 +6,19 @@ export default () => {
   return (
     <menu className='mainMenu'>
       <ul className='mainMenu__list'>
-        <li>
+        <li className='mainMenu__listItem'>
           <Link to='/'>
             <DecoratedLink>Main</DecoratedLink>
           </Link>
         </li>
 
-        <li>
+        <li className='mainMenu__listItem'>
           <Link to='/about'>
             <DecoratedLink>About</DecoratedLink>
           </Link>
         </li>
 
-        <li>
+        <li className='mainMenu__listItem'>
           <a
             target='_blank'
             href='http://feeds.soundcloud.com/users/soundcloud:users:201515747/sounds.rss'>

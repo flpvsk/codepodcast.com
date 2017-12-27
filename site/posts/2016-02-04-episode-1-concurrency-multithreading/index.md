@@ -10,7 +10,7 @@ Laws of Newtonian mechanics don't make sense as we get closer to the speed of li
 
 In this episode we'll define concurrency and talk about why is it hard to write concurrent programs. With the help of Daniel and Steve we'll explore tools that are there in Clojure and Rust to help engineers deal with multiple threads of execution.
 
-**Host:** Andrey Salomatin [twitter.com/filipovskii](https://twitter.com/filipovskii)
+**Host:** Andrey Salomatin [flpvsk.com](https://flpvsk.com)
 
 ### Guests ###
 
