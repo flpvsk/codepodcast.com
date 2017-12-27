@@ -1,0 +1,174 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: monospace;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #002b36;
+}
+
+body {
+  font-family: "Fira Code", "SFMono-Regular", Consolas, "Roboto Mono",
+    "Droid Sans Mono", "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 90%;
+  color: #93A1A1;
+  width: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  /* color: #859900; */
+  color: #168DCF;
+}
+
+.page {
+  max-width: 45em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.pageContent {
+  margin-top: 4em;
+}
+
+.pageTitle {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 1.2em;
+  /*
+  color: ${theme.header};
+  */
+}
+
+.mainMenu {
+  margin: 0;
+  padding: 0;
+}
+
+.mainMenu__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+  }
+
+  .mainMenu__list {
+    flex-direction: column;
+  }
+}
+
+.mainMenu li {
+  padding: 0;
+}
+
+.postList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.postList__item {
+  padding: 0;
+  margin-bottom: 2.8em;
+}
+
+
+.postSummary__date {
+  /*
+  color: ${theme.date}
+  */
+
+}
+
+.postSummary__summary {
+  margin-top: 1.2em;
+}
+
+.decoratedLink {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.decoratedLink:focus .decoratedLink__text,
+.decoratedLink:hover .decoratedLink__text {
+  text-decoration: underline;
+}
+
+.decoratedLink__decoration {
+  /*
+   * color: ${theme.text};
+   */
+  user-select: none;
+  text-decoration: none;
+}
+
+.decoratedLink__text {
+  margin-right: 1em;
+  margin-left: 1em;
+  /*
+  color: ${theme.link};
+  */
+}
+
+.postContent h1,
+.postContent h2,
+.postContent h3,
+.postContent h4 {
+  font-size: 1em;
+  font-weight: normal;
+  margin-top: 2.2em;
+  margin-bottom: 1em;
+  position: relative;
+  color: #2aa198; /*cb4b16;*/
+}
+
+.postContent h2:before,
+.postContent h3:before,
+.postContent h4:before {
+  color: #073642;
+  position: absolute;
+  text-align: right;
+  left: -2.5em;
+  width: 2em;
+  top: 0;
+}
+
+.postContent h1:before {
+  content: '#';
+}
+
+.postContent h2:before {
+  content: '##';
+}
+
+.postContent h3:before {
+  content: '###';
+}
+
+.postContent h4:before {
+  content: '####';
+}
+
+.postContent strong {
+  color: #d33682;
+  font-weight: normal;
+}
+
+.logo {
+  width: 20em;
+  margin-bottom: 2.2em;
+}
