@@ -42,7 +42,7 @@ export default props => {
             {`Find us on `}
             <a href="https://twitter.com/podcastcode">twitter</a>
             {`, `}
-            <a href="https://twitter.com/podcastcode">soundcloud</a>
+            <a href="https://soundcloud.com/podcastcode">soundcloud</a>
             {` and `}
             <a href="https://www.facebook.com/Codepodcast">facebook</a>.
           </p>
