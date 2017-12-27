@@ -1,5 +1,5 @@
 import React from 'react';
-import DecoratedLink from './DecoratedLink';
+import DecoratedLink from './decorated-link';
 import Link from 'gatsby-link'
 
 export default () => {

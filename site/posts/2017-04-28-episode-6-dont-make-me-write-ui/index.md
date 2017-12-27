@@ -28,7 +28,7 @@ Episode produced by:
 ### Links: Casey
 
 * [ImGui introduction video](http://mollyrocket.com/861)
-* [IMGUI Yay or Nay](https://gamedev.stackexchange.com/questions/24…i-yae-or-nay)
+* [IMGUI Yay or Nay](https://exit.sc/?url=http%3A%2F%2Fgamedev.stackexchange.com%2Fquestions%2F24103%2Fimmediate-gui-yae-or-nay)
 * [dear imgui](https://github.com/ocornut/imgui)
 * [React](https://facebook.github.io/react/)
 
