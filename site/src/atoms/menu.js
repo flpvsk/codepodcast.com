@@ -20,6 +20,13 @@ export default () => {
 
         <li className="mainMenu__listItem">
           <a
+            href="https://www.patreon.com/codepodcast">
+            <DecoratedLink>Patreon</DecoratedLink>
+          </a>
+        </li>
+
+        <li className="mainMenu__listItem">
+          <a
             target="_blank"
             href="http://feeds.soundcloud.com/users/soundcloud:users:201515747/sounds.rss"
           >
