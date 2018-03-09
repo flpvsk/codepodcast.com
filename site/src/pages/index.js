@@ -15,6 +15,10 @@ const PostSummary = props => (
 
 export default props => {
   const postSummaries = props.data.allMarkdownRemark.edges
+    .filter((edge) => {
+      const date = new Date(edge.node.frontmatter.date);
+      return date < Date.now();
+    });
 
   return (
     <div>
