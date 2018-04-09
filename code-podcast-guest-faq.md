@@ -20,8 +20,8 @@ Our process:
 
 ### What will we use for the call?
 
-- Skype: filipovskii\_off
-- or Hangouts: filipovskii.off@gmail.com
+- Hangouts: [link](https://hangouts.google.com/hangouts/_/andreysalomatin.me/code-podcast-interview)
+- or Skype: filipovskii\_off
 
 ### How long will it take?
 
