@@ -21,7 +21,7 @@ export default () => {
         <li className="mainMenu__listItem">
           <a
             href="https://www.patreon.com/codepodcast">
-            <DecoratedLink>Patreon</DecoratedLink>
+            <DecoratedLink>Support Us</DecoratedLink>
           </a>
         </li>
 
