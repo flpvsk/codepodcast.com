@@ -40,11 +40,17 @@ export default props => {
           </p>
           <p>
             {`Find us on `}
+            <a href="https://itunes.apple.com/us/podcast/code-podcast/id1078095408?l=en">itunes</a>
+            {`, `}
             <a href="https://twitter.com/podcastcode">twitter</a>
             {`, `}
             <a href="https://soundcloud.com/podcastcode">soundcloud</a>
             {` and `}
             <a href="https://www.facebook.com/Codepodcast">facebook</a>.
+          </p>
+          <p>
+            {`Support the podcast on `}
+            <a href="https://www.patreon.com/codepodcast">patreon</a>.
           </p>
         </section>
       </div>
