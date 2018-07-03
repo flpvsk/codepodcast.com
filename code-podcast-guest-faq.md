@@ -20,8 +20,8 @@ Our process:
 
 ### What will we use for the call?
 
-- Hangouts: [link](https://hangouts.google.com/hangouts/_/andreysalomatin.me/code-podcast-interview)
-- or Skype: filipovskii\_off
+- Google Meet: [link](https://meet.google.com/pqo-jnoz-nbu)
+- If you'd like to use skype or something else, please [write Andrey](mailto:andrey@codepodcast.com) in advance.
 
 ### How long will it take?
 
