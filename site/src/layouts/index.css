@@ -224,4 +224,8 @@ a {
   margin-bottom: 2.2em;
 }
 
-
+code {
+  background-color: rgba(0,0,0,0.15);
+  padding-left: 4px;
+  padding-right: 4px;
+}
