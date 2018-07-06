@@ -62,7 +62,7 @@ Alternatively you can send eth to this address:
 * 05:57 Introducing **Zenna**
 * 08:23 Introducing **Mathias**
 * 11:20 BitTorrent and scale
-* 14:19 Multiple versions of truths, version control systems
+* 14:19 Multiple versions of the truth, version control systems
   (**Jon-Kyle**)
 * 19:16 Introducing **Christian**
 * 20:08 Git internal structure
