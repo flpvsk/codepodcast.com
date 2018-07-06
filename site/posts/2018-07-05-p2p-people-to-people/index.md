@@ -21,7 +21,7 @@ talking with people who are fixing it.
 
 Episode was produced by [Andrey Salomatin](https://flpvsk.com).
 
-Music by [Mid-Air!](https://soundcloud.com/mid_air).
+Music by [Mid-Air!](https://soundcloud.com/mid_air)
 
 
 ## Support us
