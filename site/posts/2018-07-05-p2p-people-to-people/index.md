@@ -1,6 +1,6 @@
 ---
 title: "Episode 8: P2P People to People"
-date: 2018-07-07
+date: 2018-07-06
 ---
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no"
