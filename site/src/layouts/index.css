@@ -178,6 +178,10 @@ a {
   padding: 0;
 }
 
+.postContent ul ul {
+  padding-left: 1.2em;
+}
+
 .postContent h1,
 .postContent h2,
 .postContent h3,
