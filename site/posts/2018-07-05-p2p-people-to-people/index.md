@@ -11,7 +11,7 @@ Slack servers are down and work stops. Facebook sells users' personal data
 to third-parties with no negative consequences to the company. Turkey
 successfully blocks citizens' access to Wikipedia. Those are all results
 of peoples' decisions of course, but there's also something else at play.
-Our mainstream technology stack make execution on all of those decisions
+Our mainstream technology stack makes execution on all of those decisions
 ridiculously easy.
 
 The Internet didn't quite deliver on its original promise and today we're
