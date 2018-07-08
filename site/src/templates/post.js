@@ -17,6 +17,7 @@ class BlogPostTemplate extends React.Component {
               content: `${post.excerpt}`,
             },
             { name: 'keywords', content: 'software, podcast' },
+            { name: 'apple-itunes-app', content: 'app-id=1078095408' },
           ]}
         />
 
