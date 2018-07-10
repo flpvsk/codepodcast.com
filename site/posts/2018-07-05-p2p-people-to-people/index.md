@@ -29,7 +29,9 @@ Music by [Mid-Air!](https://soundcloud.com/mid_air)
 If you get value from the podcast, please consider supporting us on [patreon](https://www.patreon.com/codepodcast).
 
 Alternatively you can send eth to this address:
-`0x730075d42c3BC0EA38c23A6D0D9611E9d78C5Af0`
+<code style='word-break: break-word'>
+  0x730075d42c3BC0EA38c23A6D0D9611E9d78C5Af0
+</code>
 
 ## Guests
 
@@ -42,16 +44,30 @@ Alternatively you can send eth to this address:
 ### Find us in P2P networks
 
 * This episode in Dat:
-  `dat://084e8ceae2fd1012e5368a70908acdb7aa92c3f5de0c62d14ef5beacbf19295d`
-* This episode in IPFS: `QmVVjxxitJrhNoRkTe3nJ2SztWMx9tYnpURuAVAY3Dx75y`
+  <code style='word-break: break-word'>
+    dat://084e8ceae2fd1012e5368a70908acdb7aa92c3f5de0c62d14ef5beacbf19295d
+  </code>
+
+* This episode in IPFS:
+  <code style='word-break: break-word'>
+    QmVVjxxitJrhNoRkTe3nJ2SztWMx9tYnpURuAVAY3Dx75y
+  </code>
   [cheat through a https
   gateway](https://ipfs.io/ipfs/QmVVjxxitJrhNoRkTe3nJ2SztWMx9tYnpURuAVAY3Dx75y)
 * Andrey in Scuttlebutt:
-  `@RP01FOdcs/QABLmMxTGe1U9myUfSLN/5ItlXQcp7oWQ=.ed25519`
+  <code style='word-break: break-word'>
+    @RP01FOdcs/QABLmMxTGe1U9myUfSLN/5ItlXQcp7oWQ=.ed25519
+  </code>
+
 * Zenna in Scuttlebutt:
-  `@3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519`
+  <code style='word-break: break-word'>
+    @3ZeNUiYQZisGC6PLf3R+u2s5avtxLsXC66xuK41e6Zk=.ed25519
+  </code>
+
 * Mikey in Scuttlebutt:
-  `@6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519`
+  <code style='word-break: break-word'>
+    @6ilZq3kN0F+dXFHAPjAwMm87JEb/VdB+LC9eIMW3sa0=.ed25519
+  </code>
 
 
 ### Outline
