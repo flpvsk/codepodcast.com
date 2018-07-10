@@ -107,6 +107,9 @@ a {
 
   .pageContent {
     margin-top: 2em;
+  }
+
+  .postContent {
     padding-left: 1em;
   }
 }
