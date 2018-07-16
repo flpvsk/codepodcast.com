@@ -6,18 +6,27 @@ import Menu from '../atoms/menu'
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    const title = `${post.frontmatter.title} | Code Podcast`;
+    const description = post.excerpt;
 
     return (
       <div>
         <Helmet
-          title={`${post.frontmatter.title} | Code Podcast`}
+          title={title}
           meta={[
             {
               name: 'description',
-              content: `${post.excerpt}`,
+              content: description,
             },
             { name: 'keywords', content: 'software, podcast' },
             { name: 'apple-itunes-app', content: 'app-id=1078095408' },
+
+            { name: 'twitter:card', content: 'summary' },
+            { name: 'twitter:image',
+              content: 'https://codepodcast.com/images/code-logo-dark-400.png' },
+            { name: 'twitter:site', content: '@podcastcode' },
+            { name: 'twitter:title', content: title },
+            { name: 'twitter:description', content: description },
           ]}
         />
 

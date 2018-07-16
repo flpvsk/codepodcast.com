@@ -31,6 +31,14 @@ export default props => {
           },
           { name: 'keywords', content: 'software, podcast' },
           { name: 'apple-itunes-app', content: 'app-id=1078095408' },
+
+          { name: 'twitter:card', content: 'summary' },
+          { name: 'twitter:image',
+            content: 'https://codepodcast.com/images/code-logo-dark-400.png' },
+          { name: 'twitter:site', content: '@podcastcode' },
+          { name: 'twitter:title', content: 'Code Podcast' },
+          { name: 'twitter:description',
+            content: 'Ideas that shape the way we build software' },
         ]}
       />
 

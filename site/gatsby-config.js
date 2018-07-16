@@ -1,11 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Code Podcast`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
     // {
     //   resolve: 'gatsby-plugin-typography',
     //   options: {
