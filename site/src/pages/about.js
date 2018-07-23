@@ -19,7 +19,12 @@ export default props => {
       />
 
       <div className="page">
-        <h1 className="pageTitle">Code Podcast | About</h1>
+        <div className="titleFrame">
+          <h1 className='titleText'>Code Podcast</h1>
+          <h2 className='titleText _withAccent'>
+            About
+          </h2>
+        </div>
         <Menu />
 
         <section className="pageContent">
