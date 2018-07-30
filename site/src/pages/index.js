@@ -40,6 +40,14 @@ export default props => {
           { name: 'twitter:description',
             content: 'Ideas that shape the way we build software' },
         ]}
+        link={[
+          {
+            rel: 'alternate',
+            type: 'application/rss+xml',
+            title: 'Code Podcast feed',
+            href: 'https://feeds.soundcloud.com/users/soundcloud:users:201515747/sounds.rss'
+          }
+        ]}
       />
 
       <div className="page">
