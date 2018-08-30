@@ -34,3 +34,11 @@ Alternatively you can send eth to this address:
   0x730075d42c3BC0EA38c23A6D0D9611E9d78C5Af0
 </code>
 
+
+### Links
+
+* [Mathias Buus on GitHub](https://github.com/mafintosh)
+* [Dat Project](https://datproject.org/)
+* [Beaker Browser](https://beakerbrowser.com/)
+* [Git](https://git-scm.com/)
+
