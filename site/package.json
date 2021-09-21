@@ -20,6 +20,7 @@
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
     "lodash": "^4.17.10",
+    "sharp": "^0.29.1",
     "typography-theme-wordpress-2016": "^0.15.10"
   },
   "keywords": [

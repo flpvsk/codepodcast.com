@@ -10,7 +10,6 @@ class BlogPostTemplate extends React.Component {
     const description = post.excerpt;
     const audio = post.frontmatter.audio;
     const hasAudio = !!audio && audio.length > 0;
-    console.log(post)
     const audioLink =
       `https://codepodcast.com/audio/${audio}`;
 
@@ -46,7 +45,7 @@ class BlogPostTemplate extends React.Component {
 
           <section className="pageContent">
             {!hasAudio ? null : (
-              <div style={{
+              <div className="postContent" style={{
                 display: "flex",
                 flexDirection: "column",
                 width: "100%"
