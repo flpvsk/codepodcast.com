@@ -1,10 +1,8 @@
 ---
 title: "Episode 5: Type systems"
 date: 2017-02-16
+audio: "05_Code Podcast 5 Type Systems.mp3"
 ---
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307581943&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-<div class="addthis_sharing_toolbox"></div>
 
 Your favorite features of Type Systems in one episode! Interfaces, Generics, ADT, Type Classes and Dependent Types. We'll talk about what they are and how they shape the way we work.
 

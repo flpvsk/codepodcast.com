@@ -1,9 +1,8 @@
 ---
 title: "Episode 2: Concurrency – CSP & Actors"
 date: 2016-02-24
+audio: "02_Code Podcast Ep2.mp3"
 ---
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/248919399&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 Multithreading is not the only approach we use to deal with concurrency. Single-purpose processes is our next frontier. Processes, that don`t have shared state. To coordinate, they pass messages to each other.
 

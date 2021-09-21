@@ -1,10 +1,8 @@
 ---
 title: "Episode 7: $300M worth of bugs"
 date: 2018-03-12
+audio: "07_Episode 7 300M worth of bugs draft 3.mp3"
 ---
-<iframe width="100%" height="300" scrolling="no" frameborder="no"
-allow="autoplay"
-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/410706669%3Fsecret_token%3Ds-9Ah7p&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 Imagine – your company's code and data are exposed. How long will it take
 for malicious hackers to find vulnerabilities? To steal users' personal

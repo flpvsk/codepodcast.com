@@ -5,9 +5,14 @@ import Menu from '../atoms/menu'
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
+    const post = this.props.data.markdownRemark;
     const title = `${post.frontmatter.title} | Code Podcast`;
     const description = post.excerpt;
+    const audio = post.frontmatter.audio;
+    const hasAudio = !!audio && audio.length > 0;
+    console.log(post)
+    const audioLink =
+      `https://codepodcast.com/audio/${audio}`;
 
     return (
       <div>
@@ -40,6 +45,19 @@ class BlogPostTemplate extends React.Component {
           <Menu />
 
           <section className="pageContent">
+            {!hasAudio ? null : (
+              <div style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%"
+              }}>
+                <audio controls>
+                  <source src={audioLink} type="audio/mp3" />
+                </audio>
+                <a href={audioLink}>Download audio</a>
+              </div>
+            )}
+
             <div
               className="postContent"
               dangerouslySetInnerHTML={{ __html: post.html }}
@@ -62,6 +80,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "YYYY-MM-DD")
+        audio
       }
     }
   }

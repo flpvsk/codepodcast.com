@@ -1,12 +1,8 @@
 ---
 title: "Bonus episode: Richard Bartlett on Decentralised Organising"
 date: 2018-09-17
+audio: "08_x3_CodePodcast_Bonus_Episode_Richard_Bartlett.mp3"
 ---
-
-
-<iframe width="100%" height="300" scrolling="no" frameborder="no"
-allow="autoplay"
-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/501019050&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 This is the interview we did with Richard, founder of
 [Enspiral][enspiral], [Loomio][loomio] and [The Hum][thehum]. We got

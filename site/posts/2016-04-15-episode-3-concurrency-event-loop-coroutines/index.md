@@ -1,10 +1,8 @@
 ---
 title: "Episode 3: Concurrency – Event loop & Coroutines"
 date: 2016-04-15
+audio: "03_Code Podcast Episode 3 Stereo.mp3"
 ---
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259065020&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-<div class="addthis_sharing_toolbox"></div>
 
 Let's escape the world where the Big Brother constantly interrupts you. Free
 ourselves from the oppression of consumerism. Forget about preemptive

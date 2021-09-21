@@ -1,11 +1,8 @@
 ---
 title: "Episode 8: P2P People to People"
 date: 2018-07-06
+audio: "08_Code Podcast 8 P2P People To People.mp3"
 ---
-
-<iframe width="100%" height="300" scrolling="no" frameborder="no"
-allow="autoplay"
-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/467795649%3Fsecret_token%3Ds-fJky0&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 Slack servers are down and work stops. Facebook sells users' personal data
 to third-parties with no negative consequences to the company. Turkey

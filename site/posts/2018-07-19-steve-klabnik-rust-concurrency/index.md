@@ -1,12 +1,8 @@
 ---
 title: "Bonus Episode: Steve Klabnik on Concurrency and Rust"
 date: 2018-07-19
+audio: "08_x1_Code Podcast Bonus Steve Klabnik on Concurrency and Rust.mp3"
 ---
-
-<iframe width="100%" height="300" scrolling="no" frameborder="no"
-allow="autoplay"
-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/472523091%3Fsecret_token%3Ds-d4BVq&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
 
 This is an unabridged interview with [Steve Klabnik](https://www.steveklabnik.com/)
 that we originally did for the

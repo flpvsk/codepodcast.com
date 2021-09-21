@@ -1,12 +1,8 @@
 ---
 title: "Bonus episode: Mathias Buus on BitTorrent and Dat"
 date: 2018-08-30
+audio: "08_x2_Code Podcast Mathias Buus on BitTorrent and Dat protocols.mp3"
 ---
-
-<iframe width="100%" height="300" scrolling="no" frameborder="no"
-allow="autoplay"
-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/492821622&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
 
 Mathias is the lead developer of Dat protocol. He also works on
 Torrent-stream (BitTorrent implementation in Javascript), Beaker Browser,
